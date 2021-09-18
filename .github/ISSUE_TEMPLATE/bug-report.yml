@@ -52,3 +52,13 @@ body:
     attributes:
       label: Additional details
       description: Provide any other information you think might be useful for this report. This may include screenshots, video footage, other mod details, anything you think might be relevant.
+  - type: checkboxes
+    attributes:
+      label: Please read and confirm the following
+      options:
+        - label: I have confirmed that this bug report is unique and has not been reported yet.
+          required: true
+        - label: I have confirmed this bug can be replicated without the use of Optifine.
+          required: true
+        - label: I have confirmed the details provided in this report are concise as possible and does not contained vague information (ie. Versions are properly recorded, answers to questions are clear)
+          required: true
