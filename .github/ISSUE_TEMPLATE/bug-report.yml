@@ -5,7 +5,7 @@ body:
   - type: input
     attributes:
       label: Forge Version
-      description: What version of Forge are you running? This can be found on the installation jar you have downloaded, in the Mod Options menu, or the profile's version. Please note "latest" is NOT a version.
+      description: What version of Forge are you running? This can be found on the installation jar you have downloaded, in the Mod Options menu, or the profile's version. Please note "latest" is NOT a version. *If you are reporting a bug for the Fabric port, please report it [here](https://github.com/TeamTwilight/twilightforest-fabric/issues) instead.*
       placeholder: "Example: 36.2.0"
     validations:
       required: true
