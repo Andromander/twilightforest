@@ -5,9 +5,7 @@ body:
   - type: input
     attributes:
       label: Forge Version
-        description: |
-        What version of Forge are you running? This can be found on the installation jar you have downloaded, in the Mod Options menu, or the profile's version. Please note "latest" is NOT a version. 
-        *If you are reporting a bug that exists only on the Fabric port, please report it [here](https://github.com/TeamTwilight/twilightforest-fabric/issues) instead.*
+      description: What version of Forge are you running? This can be found on the installation jar you have downloaded, in the Mod Options menu, or the profile's version. Please note "latest" is NOT a version. *If you are reporting a bug that exists only on the Fabric port, please report it [here](https://github.com/TeamTwilight/twilightforest-fabric/issues) instead.*
       placeholder: "Example: 36.2.0"
     validations:
       required: true
@@ -29,7 +27,7 @@ body:
   - type: textarea
     attributes:
       label: Steps to Reproduce
-      description: A detailed list of how you encountered this bug if it is not immediately obvious. If the bug is obvious and can be encountered, breifly describe what action you took for this to happen.
+      description: A detailed list of how you encountered this bug if it is not immediately obvious. If the bug is immediately obvious, briefly describe what action you took for this to happen.
       placeholder: |
         1. Step 1
         2. Step 2
@@ -60,5 +58,5 @@ body:
           required: true
         - label: I have confirmed this bug can be replicated without the use of Optifine.
           required: true
-        - label: I have confirmed the details provided in this report are concise as possible and does not contained vague information (ie. Versions are properly recorded, answers to questions are clear)
+        - label: I have confirmed the details provided in this report are concise as possible and does not contained vague information (ie. Versions are properly recorded, answers to questions are clear).
           required: true
