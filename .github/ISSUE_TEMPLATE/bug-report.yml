@@ -27,7 +27,7 @@ body:
   - type: textarea
     attributes:
       label: Steps to Reproduce
-      description: A detailed list of how you encountered this bug if it is not immediately obvious. If the bug is immediately obvious, briefly describe what action you took for this to happen.
+      description: A detailed list of how you encountered this bug if it is not immediately obvious. If the bug is immediately obvious, briefly mention how to replicate it.
       placeholder: |
         1. Step 1
         2. Step 2
