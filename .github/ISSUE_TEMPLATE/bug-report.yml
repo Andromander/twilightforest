@@ -19,11 +19,11 @@ body:
   - type: input
     attributes:
       label: Client Log
-      description: A [Gist](https://gist.github.com/) link to the full game log. This can be found in the game files under the `logs` folder. Though not necessary, a client log can help diagnose an issue better in case a bug is caused by a reported error. Provide the `latest.log` or `debug.log` file as a Gist as soon as you find the bug, as these files are reset every time the game is opened.
+      description: A **[Gist](https://gist.github.com/)** link to the full game log. This can be found in the game files under the `logs` folder. Though not necessary, a client log can help diagnose an issue better in case a bug is caused by a reported error. Provide the `latest.log` or `debug.log` file as a Gist as soon as you find the bug, as these files are reset every time the game is opened.
   - type: input
     attributes:
       label: Crash Report (if applicable)
-      description: A [Gist](https://gist.github.com/) link to the crash report. This can be found in the game files under the `crash-reports` folder, and all the contents of the file should be pasted into the Gist file. If the bug does not result in a crash, ignore this field.
+      description: A **[Gist](https://gist.github.com/)** link to the crash report. This can be found in the game files under the `crash-reports` folder, and all the contents of the file should be pasted into the Gist file. If the bug does not result in a crash, ignore this field.
   - type: textarea
     attributes:
       label: Steps to Reproduce
