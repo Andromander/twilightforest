@@ -11,13 +11,13 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Why should it be in the mod?
+      label: Why Should It Be in the Mod?
       description: Describe why you would like to see this idea in the mod. Include reasons such as how gameplay would be improved, or how the feature improves the look and feel of the mod.
     validations:
       required: true
   - type: checkboxes
     attributes:
-      label: Please read and confirm the following
+      label: Please Read and Confirm the Following
       options:
-        - label: I have confirmed this suggestion is unique and has not been suggested already
+        - label: I have confirmed this suggestion is unique and has not been suggested already.
           required: true
